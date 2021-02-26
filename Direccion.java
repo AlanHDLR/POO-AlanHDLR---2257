@@ -1,0 +1,98 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package mx.unam.aragon;
+
+/**
+ *
+ * @author Alan
+ */
+public class Direccion {
+    private String nombre;
+    private String calle;
+    private String numero;
+    private String colonia;
+    private String delegacion;
+    private String estado;
+    private String cp;
+
+    public Direccion() {
+    }
+
+    public Direccion(String nombre, String calle, String numero, String colonia, String delegacion, String estado, String cp) {
+        this.nombre = nombre;
+        this.calle = calle;
+        this.numero = numero;
+        this.colonia = colonia;
+        this.delegacion = delegacion;
+        this.estado = estado;
+        this.cp = cp;
+    }
+
+    public String getnombre(){
+        return nombre;
+    }
+    public void setnombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public String getCp() {
+        return cp;
+    }
+
+    public void setCp(String cp) {
+        this.cp = cp;
+    }
+
+    public String getCalle() {
+        return calle;
+    }
+
+    public void setCalle(String calle) {
+        this.calle = calle;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
+    public String getColonia() {
+        return colonia;
+    }
+
+    public void setColonia(String colonia) {
+        this.colonia = colonia;
+    }
+
+    public String getDelegacion() {
+        return delegacion;
+    }
+
+    public void setDelegacion(String delegacion) {
+        this.delegacion = delegacion;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    @Override
+    public String toString() {
+        return "Direccion{" + "nombre=" + nombre + ", calle=" + calle + ", numero=" + numero + ", colonia=" + colonia + ", delegacion=" + delegacion + ", estado=" + estado + ", cp=" + cp + '}';
+    }
+
+  
+    }
+    
+    
+    
+
